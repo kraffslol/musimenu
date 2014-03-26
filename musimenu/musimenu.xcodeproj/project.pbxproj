@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF64FCFF18E320EB00617503 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF64FCFE18E320EB00617503 /* Cocoa.framework */; };
+		FF64FD0918E320EB00617503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF64FD0718E320EB00617503 /* InfoPlist.strings */; };
+		FF64FD0B18E320EB00617503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF64FD0A18E320EB00617503 /* main.m */; };
+		FF64FD0F18E320EB00617503 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FF64FD0D18E320EB00617503 /* Credits.rtf */; };
+		FF64FD1218E320EB00617503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF64FD1118E320EB00617503 /* AppDelegate.m */; };
+		FF64FD1518E320EB00617503 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF64FD1318E320EB00617503 /* MainMenu.xib */; };
+		FF64FD1718E320EB00617503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF64FD1618E320EB00617503 /* Images.xcassets */; };
+		FF64FD1E18E320EB00617503 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF64FD1D18E320EB00617503 /* XCTest.framework */; };
+		FF64FD1F18E320EC00617503 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF64FCFE18E320EB00617503 /* Cocoa.framework */; };
+		FF64FD2718E320EC00617503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF64FD2518E320EC00617503 /* InfoPlist.strings */; };
+		FF64FD2918E320EC00617503 /* musimenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF64FD2818E320EC00617503 /* musimenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF64FD2018E320EC00617503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF64FCF318E320EB00617503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF64FCFA18E320EB00617503;
+			remoteInfo = musimenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF64FCFB18E320EB00617503 /* musimenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musimenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF64FCFE18E320EB00617503 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FF64FD0118E320EB00617503 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FF64FD0218E320EB00617503 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF64FD0318E320EB00617503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF64FD0618E320EB00617503 /* musimenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musimenu-Info.plist"; sourceTree = "<group>"; };
+		FF64FD0818E320EB00617503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF64FD0A18E320EB00617503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF64FD0C18E320EB00617503 /* musimenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "musimenu-Prefix.pch"; sourceTree = "<group>"; };
+		FF64FD0E18E320EB00617503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FF64FD1018E320EB00617503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF64FD1118E320EB00617503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF64FD1418E320EB00617503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF64FD1618E320EB00617503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF64FD1C18E320EB00617503 /* musimenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musimenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF64FD1D18E320EB00617503 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF64FD2418E320EC00617503 /* musimenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musimenuTests-Info.plist"; sourceTree = "<group>"; };
+		FF64FD2618E320EC00617503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF64FD2818E320EC00617503 /* musimenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musimenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF64FCF818E320EB00617503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64FCFF18E320EB00617503 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF64FD1918E320EB00617503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64FD1F18E320EC00617503 /* Cocoa.framework in Frameworks */,
+				FF64FD1E18E320EB00617503 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF64FCF218E320EB00617503 = {
+			isa = PBXGroup;
+			children = (
+				FF64FD0418E320EB00617503 /* musimenu */,
+				FF64FD2218E320EC00617503 /* musimenuTests */,
+				FF64FCFD18E320EB00617503 /* Frameworks */,
+				FF64FCFC18E320EB00617503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF64FCFC18E320EB00617503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FCFB18E320EB00617503 /* musimenu.app */,
+				FF64FD1C18E320EB00617503 /* musimenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF64FCFD18E320EB00617503 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FCFE18E320EB00617503 /* Cocoa.framework */,
+				FF64FD1D18E320EB00617503 /* XCTest.framework */,
+				FF64FD0018E320EB00617503 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF64FD0018E320EB00617503 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FD0118E320EB00617503 /* AppKit.framework */,
+				FF64FD0218E320EB00617503 /* CoreData.framework */,
+				FF64FD0318E320EB00617503 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FF64FD0418E320EB00617503 /* musimenu */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FD1018E320EB00617503 /* AppDelegate.h */,
+				FF64FD1118E320EB00617503 /* AppDelegate.m */,
+				FF64FD1318E320EB00617503 /* MainMenu.xib */,
+				FF64FD1618E320EB00617503 /* Images.xcassets */,
+				FF64FD0518E320EB00617503 /* Supporting Files */,
+			);
+			path = musimenu;
+			sourceTree = "<group>";
+		};
+		FF64FD0518E320EB00617503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FD0618E320EB00617503 /* musimenu-Info.plist */,
+				FF64FD0718E320EB00617503 /* InfoPlist.strings */,
+				FF64FD0A18E320EB00617503 /* main.m */,
+				FF64FD0C18E320EB00617503 /* musimenu-Prefix.pch */,
+				FF64FD0D18E320EB00617503 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF64FD2218E320EC00617503 /* musimenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FD2818E320EC00617503 /* musimenuTests.m */,
+				FF64FD2318E320EC00617503 /* Supporting Files */,
+			);
+			path = musimenuTests;
+			sourceTree = "<group>";
+		};
+		FF64FD2318E320EC00617503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF64FD2418E320EC00617503 /* musimenuTests-Info.plist */,
+				FF64FD2518E320EC00617503 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF64FCFA18E320EB00617503 /* musimenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF64FD2C18E320EC00617503 /* Build configuration list for PBXNativeTarget "musimenu" */;
+			buildPhases = (
+				FF64FCF718E320EB00617503 /* Sources */,
+				FF64FCF818E320EB00617503 /* Frameworks */,
+				FF64FCF918E320EB00617503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musimenu;
+			productName = musimenu;
+			productReference = FF64FCFB18E320EB00617503 /* musimenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF64FD1B18E320EB00617503 /* musimenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF64FD2F18E320EC00617503 /* Build configuration list for PBXNativeTarget "musimenuTests" */;
+			buildPhases = (
+				FF64FD1818E320EB00617503 /* Sources */,
+				FF64FD1918E320EB00617503 /* Frameworks */,
+				FF64FD1A18E320EB00617503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF64FD2118E320EC00617503 /* PBXTargetDependency */,
+			);
+			name = musimenuTests;
+			productName = musimenuTests;
+			productReference = FF64FD1C18E320EB00617503 /* musimenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF64FCF318E320EB00617503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kraffs;
+				TargetAttributes = {
+					FF64FD1B18E320EB00617503 = {
+						TestTargetID = FF64FCFA18E320EB00617503;
+					};
+				};
+			};
+			buildConfigurationList = FF64FCF618E320EB00617503 /* Build configuration list for PBXProject "musimenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF64FCF218E320EB00617503;
+			productRefGroup = FF64FCFC18E320EB00617503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF64FCFA18E320EB00617503 /* musimenu */,
+				FF64FD1B18E320EB00617503 /* musimenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF64FCF918E320EB00617503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64FD0918E320EB00617503 /* InfoPlist.strings in Resources */,
+				FF64FD1718E320EB00617503 /* Images.xcassets in Resources */,
+				FF64FD0F18E320EB00617503 /* Credits.rtf in Resources */,
+				FF64FD1518E320EB00617503 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF64FD1A18E320EB00617503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64FD2718E320EC00617503 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF64FCF718E320EB00617503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64FD1218E320EB00617503 /* AppDelegate.m in Sources */,
+				FF64FD0B18E320EB00617503 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF64FD1818E320EB00617503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64FD2918E320EC00617503 /* musimenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF64FD2118E320EC00617503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF64FCFA18E320EB00617503 /* musimenu */;
+			targetProxy = FF64FD2018E320EC00617503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF64FD0718E320EB00617503 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF64FD0818E320EB00617503 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF64FD0D18E320EB00617503 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF64FD0E18E320EB00617503 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FF64FD1318E320EB00617503 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF64FD1418E320EB00617503 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FF64FD2518E320EC00617503 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF64FD2618E320EC00617503 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF64FD2A18E320EC00617503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF64FD2B18E320EC00617503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF64FD2D18E320EC00617503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musimenu/musimenu-Prefix.pch";
+				INFOPLIST_FILE = "musimenu/musimenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF64FD2E18E320EC00617503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musimenu/musimenu-Prefix.pch";
+				INFOPLIST_FILE = "musimenu/musimenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF64FD3018E320EC00617503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/musimenu.app/Contents/MacOS/musimenu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musimenu/musimenu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "musimenuTests/musimenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF64FD3118E320EC00617503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/musimenu.app/Contents/MacOS/musimenu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musimenu/musimenu-Prefix.pch";
+				INFOPLIST_FILE = "musimenuTests/musimenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF64FCF618E320EB00617503 /* Build configuration list for PBXProject "musimenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF64FD2A18E320EC00617503 /* Debug */,
+				FF64FD2B18E320EC00617503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF64FD2C18E320EC00617503 /* Build configuration list for PBXNativeTarget "musimenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF64FD2D18E320EC00617503 /* Debug */,
+				FF64FD2E18E320EC00617503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF64FD2F18E320EC00617503 /* Build configuration list for PBXNativeTarget "musimenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF64FD3018E320EC00617503 /* Debug */,
+				FF64FD3118E320EC00617503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF64FCF318E320EB00617503 /* Project object */;
+}
