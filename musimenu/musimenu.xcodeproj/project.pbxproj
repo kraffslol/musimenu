@@ -50,6 +50,7 @@
 		FF64FD2418E320EC00617503 /* musimenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musimenuTests-Info.plist"; sourceTree = "<group>"; };
 		FF64FD2618E320EC00617503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF64FD2818E320EC00617503 /* musimenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musimenuTests.m; sourceTree = "<group>"; };
+		FF64FD3218E436A600617503 /* SpotifyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyClient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 		FF64FD0418E320EB00617503 /* musimenu */ = {
 			isa = PBXGroup;
 			children = (
+				FF64FD3218E436A600617503 /* SpotifyClient.h */,
 				FF64FD1018E320EB00617503 /* AppDelegate.h */,
 				FF64FD1118E320EB00617503 /* AppDelegate.m */,
 				FF64FD1318E320EB00617503 /* MainMenu.xib */,
